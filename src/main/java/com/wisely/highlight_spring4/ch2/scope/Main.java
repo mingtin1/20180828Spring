@@ -13,8 +13,8 @@ public class Main {
         DemoPrototypeService p1 = context.getBean(DemoPrototypeService.class);
         DemoPrototypeService p2 = context.getBean(DemoPrototypeService.class);
 
-        System.out.println("s1与s2是否相等："+s1.equals(s2));
-        System.out.println("p1与p2是否相等："+p1.equals(p2));
+        System.out.println("s1涓巗2鏄惁鐩哥瓑"+s1.equals(s2));
+        System.out.println("p1涓巔2鏄惁鐩哥瓑"+p1.equals(p2));
         
         context.close();
 	}
